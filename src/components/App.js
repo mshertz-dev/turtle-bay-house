@@ -8,13 +8,18 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>
-          Welcome to the Turtle Bay House!
-        </h1>
-        <img src={pic1} className="App-logo" alt="logo" />
-        <h4>
+        <div id="Header-main-text">
+          <h2 >
+            Welcome to the Turtle Bay House!
+          </h2>
+        </div>
+        <h4 id="Header-sub-text">
           Your serene paradise in Sea Isle City
         </h4>
+        <div id="Top-image">
+          <img src={pic1} className="App-logo" alt="logo" />
+        </div>
+
       </header>
       <body>
 
