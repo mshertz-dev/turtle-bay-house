@@ -9,16 +9,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div id="Header-main-text">
-          <h2 >
-            Welcome to the Turtle Bay House!
-          </h2>
+          <h1>
+            Welcome to the
+            <br></br>Turtle Bay House!
+          </h1>
         </div>
-        <h4 id="Header-sub-text">
-          Your serene paradise in Sea Isle City
-        </h4>
-        <div id="Top-image">
-          <img src={pic1} className="App-logo" alt="logo" />
-        </div>
+        <h2 id="Header-sub-text">
+          Your serene paradise in Sea Isle City.
+        </h2>
 
       </header>
       <body>

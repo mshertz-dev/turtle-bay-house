@@ -15,7 +15,8 @@
 } */
 
 .App-header {
-  background-color: rgb(251, 254, 255);
+  /* background-color: rgb(251, 254, 255); */
+  background: url("pic1.JPEG") no-repeat center center;
   font-family: Helvetica, Arial, sans-serif;
   min-height: 100vh;
   display: flex;
@@ -24,7 +25,9 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: rgb(251, 254, 255);
-  color: coral;
+  margin-top: -50px;
+  padding-top: 0px;
+  /* color: coral; */
 }
 
 .App-link {
@@ -32,7 +35,7 @@
 }
 
 body {
-  background-color: #e2f5f8;
+  background-color: white;
   font-family: Helvetica, Arial, sans-serif;
   min-height: 100vh;
   display: flex;
@@ -40,7 +43,7 @@ body {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: rgb(6, 207, 214);
+  color: #e2f5f8;
 }
 
 #testing123 {
@@ -56,6 +59,23 @@ body {
   border-color: powderblue;
   width: 100%;
   font-weight: 900;
+}
+
+#Header-main-text {
+  position: absolute;
+  font-size: 2em;
+  text-align: left;
+  top: 0px;
+  left: 5px;
+}
+
+#Header-sub-text {
+  position: absolute;
+  text-align: left;
+  position: left;
+  font-size: 1.75em;
+  top: 300px;
+  left: 5px;
 }
 
 @keyframes App-logo-spin {
