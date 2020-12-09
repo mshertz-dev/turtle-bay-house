@@ -9,6 +9,7 @@ import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
 import '../App.css';
 import Amenities from './Amenities.jsx';
+import DemoCarousel from './Carousel.jsx';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -69,21 +70,23 @@ export default function SimpleTabs() {
           aria-label="simple tabs example"
           centered
         >
-          <Tab label="About and Amenities" {...a11yProps(0)} id='testing123'/>
-
-          <Tab label="Things To Do" {...a11yProps(1)} />
-          <Tab label="Contact Us" {...a11yProps(2)} />
-          <Tab label="Once You've Booked" {...a11yProps(3)} />
+          <Tab label="About/Amenities" {...a11yProps(0)} id='testing123'/>
+          <Tab label="Photos" {...a11yProps(1)} id='testing123'/>
+          <Tab label="Things To Do" {...a11yProps(2)} id='testing123'/>
+          <Tab label="Contact Us" {...a11yProps(3)} id='testing123'/>
+          <Tab label="Once You've Booked" {...a11yProps(4)} id='testing123'/>
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
         <Amenities></Amenities>
       </TabPanel>
       <TabPanel value={value} index={1} >
-        Item Two
+        <DemoCarousel></DemoCarousel>
       </TabPanel>
       <TabPanel value={value} index={2}>
-        Item Three
+        <div id='testing123'>
+          <p id='testing123'>Item 3</p>
+        </div>
       </TabPanel>
     </div>
   );

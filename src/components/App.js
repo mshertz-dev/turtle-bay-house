@@ -10,7 +10,7 @@ function App() {
       <header className="App-header">
         <div id="Header-main-text">
           <h1>
-            Welcome to the
+            Welcome to
             <br></br>Turtle Bay House!
           </h1>
         </div>
