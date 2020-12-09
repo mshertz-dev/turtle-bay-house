@@ -2,19 +2,25 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import pic1 from '../pic1.JPEG';
 import pic2 from '../pic2.jpeg';
+import pic3 from '../image3.jpg';
+import pic4 from '../image4.jpg';
+import '../App.css';
 
 class DemoCarousel extends Component {
     render() {
         return (
             <Carousel>
-                <div>
-                    <img src={pic1} />
+                <div className="image-container">
+                    <img src={pic2} />
                     <p className="legend">Legend 1</p>
                 </div>
-                <div>
-                    <img src={pic2} />
+                <div className="image-container">
+                    <img src={pic3} />
+                    <p className="legend">Legend 2</p>
+                </div>
+                <div className="image-container">
+                    <img src={pic4} />
                     <p className="legend">Legend 2</p>
                 </div>
             </Carousel>
