@@ -45,6 +45,16 @@ body {
 #testing123 {
   background-color: #282c34;
   color: white;
+  border-color: powderblue;
+  width: 100%;
+}
+
+#headerCard {
+  background-color: #282c34;
+  color: white;
+  border-color: powderblue;
+  width: 100%;
+  font-weight: 900;
 }
 
 @keyframes App-logo-spin {

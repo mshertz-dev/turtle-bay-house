@@ -1,11 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { makeStyles } from "@material-ui/core/styles";
+import { createMuiTheme } from '@material-ui/core/styles';
 import AppBar from "@material-ui/core/AppBar";
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
+import '../App.css';
+import Amenities from './Amenities.jsx';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -19,7 +22,7 @@ function TabPanel(props) {
       {...other}
     >
       {value === index && (
-        <Box p={3}>
+        <Box p={4}>
           <Typography>{children}</Typography>
         </Box>
       )}
@@ -57,23 +60,26 @@ export default function SimpleTabs() {
   };
 
   return (
-    <div className={classes.root}>
-      <AppBar position="static">
+    <div className={classes.root} id='testing123'>
+      <AppBar position="static" id='testing123'>
         <Tabs
+          id='testing123'
           value={value}
           onChange={handleChange}
           aria-label="simple tabs example"
           centered
         >
-          <Tab label="About and Amenities" {...a11yProps(0)} />
+          <Tab label="About and Amenities" {...a11yProps(0)} id='testing123'/>
+
           <Tab label="Things To Do" {...a11yProps(1)} />
           <Tab label="Contact Us" {...a11yProps(2)} />
+          <Tab label="Once You've Booked" {...a11yProps(3)} />
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
-        Hay
+        <Amenities></Amenities>
       </TabPanel>
-      <TabPanel value={value} index={1}>
+      <TabPanel value={value} index={1} >
         Item Two
       </TabPanel>
       <TabPanel value={value} index={2}>
