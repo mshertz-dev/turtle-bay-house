@@ -85,7 +85,17 @@ export default function SimpleTabs() {
       </TabPanel>
       <TabPanel value={value} index={2}>
         <div id='testing123'>
-          <p id='testing123'>Item 3</p>
+          <p id='testing123'>Need to update Things To Do</p>
+        </div>
+      </TabPanel>
+      <TabPanel value={value} index={3}>
+        <div id='testing123'>
+          <p id='testing123'>Contact Us form goes here</p>
+        </div>
+      </TabPanel>
+      <TabPanel value={value} index={4}>
+        <div id='testing123'>
+          <p id='testing123'>Keep an eye out for a Welcome Letter along with further instructions!</p>
         </div>
       </TabPanel>
     </div>

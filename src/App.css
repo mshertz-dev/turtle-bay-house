@@ -1,7 +1,6 @@
-img {
-  width: auto;
-  height: auto;
-  max-height: 1200px;
+#carousel-img {
+  max-height: 75%;
+  max-width: 75%;
 }
 
 .App {
@@ -53,12 +52,21 @@ body {
 
 .image-container {
   max-width: 100%;
+  width: 100%;
 }
 
 #testing123 {
   background-color: white;
   color:black;
   border-color: powderblue;
+  width: 100%;
+}
+
+#testing1234 {
+  background-color: white;
+  color:black;
+  border: none;
+  box-shadow: 0px !important;
   width: 100%;
 }
 
