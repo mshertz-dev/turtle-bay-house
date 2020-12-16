@@ -10,6 +10,7 @@ import Box from "@material-ui/core/Box";
 import '../App.css';
 import Amenities from './Amenities.jsx';
 import DemoCarousel from './Carousel.jsx';
+import ThingsToDo from './ThingsToDo.jsx';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -85,7 +86,7 @@ export default function SimpleTabs() {
       </TabPanel>
       <TabPanel value={value} index={2}>
         <div id='testing123'>
-          <p id='testing123'>Need to update Things To Do</p>
+          <ThingsToDo></ThingsToDo>
         </div>
       </TabPanel>
       <TabPanel value={value} index={3}>
