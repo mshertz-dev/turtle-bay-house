@@ -70,15 +70,19 @@ export default function ScrollableTabsButtonAuto() {
           onChange={handleChange}
           indicatorColor="primary"
           textColor="primary"
+          centered
           variant="scrollable"
           scrollButtons="auto"
           aria-label="scrollable auto tabs example"
+
         >
           <Tab label="About/Amenities" {...a11yProps(0)} id='testing123'/>
           <Tab label="Photos" {...a11yProps(1)} id='testing123'/>
           <Tab label="Things To Do" {...a11yProps(2)} id='testing123'/>
           <Tab label="Contact Us" {...a11yProps(3)} id='testing123'/>
           <Tab label="Once You've Booked" {...a11yProps(4)} id='testing123'/>
+          <Tab label="Links to Rental Sites" {...a11yProps(5)} id='testing123'/>
+          <Tab label="About the Owners" {...a11yProps(6)} id='testing123'/>
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
