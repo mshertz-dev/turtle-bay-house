@@ -19,12 +19,12 @@ function TabPanel(props) {
     <div
       role="tabpanel"
       hidden={value !== index}
-      id={`simple-tabpanel-${index}`}
-      aria-labelledby={`simple-tab-${index}`}
+      id={`scrollable-auto-tabpanel-${index}`}
+      aria-labelledby={`scrollable-auto-tab-${index}`}
       {...other}
     >
       {value === index && (
-        <Box p={4}>
+        <Box p={3}>
           <Typography>{children}</Typography>
         </Box>
       )}
@@ -35,25 +35,25 @@ function TabPanel(props) {
 TabPanel.propTypes = {
   children: PropTypes.node,
   index: PropTypes.any.isRequired,
-  value: PropTypes.any.isRequired
+  value: PropTypes.any.isRequired,
 };
 
 function a11yProps(index) {
   return {
-    id: `simple-tab-${index}`,
-    "aria-controls": `simple-tabpanel-${index}`
+    id: `scrollable-auto-tab-${index}`,
+    'aria-controls': `scrollable-auto-tabpanel-${index}`,
   };
 }
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    backgroundColor: '#282c34',
-    color: 'white'
-  }
+    width: '100%',
+    backgroundColor: theme.palette.background.paper,
+  },
 }));
 
-export default function SimpleTabs() {
+export default function ScrollableTabsButtonAuto() {
   const classes = useStyles();
   const [value, setValue] = React.useState(0);
 
@@ -62,14 +62,17 @@ export default function SimpleTabs() {
   };
 
   return (
-    <div className={classes.root} id='testing123'>
-      <AppBar position="static" id='testing123'>
+    <div className={classes.root} id="tabs-bar-container">
+      <AppBar position="static" color="default" id="tabs-bar">
         <Tabs
-          id='testing123'
+          id="tabs"
           value={value}
           onChange={handleChange}
-          aria-label="simple tabs example"
-          centered
+          indicatorColor="primary"
+          textColor="primary"
+          variant="scrollable"
+          scrollButtons="auto"
+          aria-label="scrollable auto tabs example"
         >
           <Tab label="About/Amenities" {...a11yProps(0)} id='testing123'/>
           <Tab label="Photos" {...a11yProps(1)} id='testing123'/>

@@ -153,6 +153,28 @@ body {
   /* overflow: visible; */
 }
 
+#tabs-bar-container {
+  background-color: white;
+  color:black;
+  border-color: powderblue;
+  width: 100%;
+}
+
+#tabs-bar {
+  background-color: white;
+  color:black;
+  border-color: powderblue;
+  width: 100%;
+  variant:"fullWidth";
+}
+
+#tabs {
+  background-color: white;
+  color:black;
+  border-color: powderblue;
+  width: 100%;
+}
+
 #things-to-do-box {
   background-color: white;
   color:black;
