@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div id="Header-main-text">
-          <h1>
+          <h1 id="Header-main-text-internal">
             Welcome to
             <br></br>Turtle Bay House!
           </h1>

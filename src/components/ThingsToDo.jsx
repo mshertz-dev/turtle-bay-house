@@ -9,7 +9,7 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
   },
   paper: {
-    padding: theme.spacing(.5),
+    padding: theme.spacing(2),
     textAlign: 'center',
     color: theme.palette.text.secondary,
   },
@@ -26,7 +26,7 @@ function ThingsToDo() {
     // </div>
     <div className={classes.root}>
       <h3>Restaurants</h3>
-      <Grid container spacing={12}>
+      <Grid container spacing={1}>
       {/* new row 1*/}
       <Grid item xs={12}>
           <Paper className={classes.paper} id='things-to-do-box'>

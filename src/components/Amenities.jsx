@@ -25,107 +25,107 @@ export default function Amenities() {
       <Grid container spacing={3}>
       {/* new row 1*/}
       <Grid item xs={4}>
-          <Paper className={classes.paper} id='headerCard'>Bedrooms and Bathrooms</Paper>
+          <Paper className={classes.paper} id='header-card'>Bedrooms and Bathrooms</Paper>
         </Grid>
         <Grid item xs={4}>
-          <Paper className={classes.paper} id='headerCard'>Appliances/Kitchen</Paper>
+          <Paper className={classes.paper} id='header-card'>Appliances/Kitchen</Paper>
         </Grid>
         <Grid item xs={4}>
-          <Paper className={classes.paper} id='headerCard'>Safety/Misc</Paper>
+          <Paper className={classes.paper} id='header-card'>Safety/Misc</Paper>
         </Grid>
         {/* new row 2*/}
         <Grid item xs={4}>
-          <Paper className={classes.paper} id='testing123'>Sleeps: 8</Paper>
+          <Paper className={classes.paper} id='amenities-card'>Sleeps: 8</Paper>
         </Grid>
         <Grid item xs={4}>
-          <Paper className={classes.paper} id='testing123'>Washer</Paper>
+          <Paper className={classes.paper} id='amenities-card'>Washer</Paper>
         </Grid>
         <Grid item xs={4}>
-          <Paper className={classes.paper} id='testing123'>Smoke Detectors</Paper>
+          <Paper className={classes.paper} id='amenities-card'>Smoke Detectors</Paper>
         </Grid>
         {/* new row 3*/}
         <Grid item xs={4}>
-          <Paper className={classes.paper} id='testing123'>Bedrooms: 4</Paper>
+          <Paper className={classes.paper} id='amenities-card'>Bedrooms: 4</Paper>
         </Grid>
         <Grid item xs={4}>
-          <Paper className={classes.paper} id='testing123'>Dryer</Paper>
+          <Paper className={classes.paper} id='amenities-card'>Dryer</Paper>
         </Grid>
         <Grid item xs={4}>
-          <Paper className={classes.paper} id='testing123'>Fire Extinguisher (Kitchen)</Paper>
+          <Paper className={classes.paper} id='amenities-card'>Fire Extinguisher (Kitchen)</Paper>
         </Grid>
         {/* new row 4*/}
         <Grid item xs={4}>
-          <Paper className={classes.paper} id='testing123'>Full Baths: 3</Paper>
+          <Paper className={classes.paper} id='amenities-card'>Full Baths: 3</Paper>
         </Grid>
         <Grid item xs={4}>
-          <Paper className={classes.paper} id='testing123'>Microwave</Paper>
+          <Paper className={classes.paper} id='amenities-card'>Microwave</Paper>
         </Grid>
         <Grid item xs={4}>
-          <Paper className={classes.paper} id='testing123'>Parking: 5 Cars</Paper>
+          <Paper className={classes.paper} id='amenities-card'>Parking: 5 Cars</Paper>
         </Grid>
         {/* new row 5*/}
         <Grid item xs={4}>
-          <Paper className={classes.paper} id='testing123'>Powder Rooms: 1</Paper>
+          <Paper className={classes.paper} id='amenities-card'>Powder Rooms: 1</Paper>
         </Grid>
         <Grid item xs={4}>
-          <Paper className={classes.paper} id='testing123'>Oven</Paper>
+          <Paper className={classes.paper} id='amenities-card'>Oven</Paper>
         </Grid>
         <Grid item xs={4}>
-          <Paper className={classes.paper} id='testing123'>Garage</Paper>
+          <Paper className={classes.paper} id='amenities-card'>Garage</Paper>
         </Grid>
         {/* new row 6*/}
         <Grid item xs={4}>
-          <Paper className={classes.paper} id='testing123'>Master: King</Paper>
+          <Paper className={classes.paper} id='amenities-card'>Master: King</Paper>
         </Grid>
         <Grid item xs={4}>
-          <Paper className={classes.paper} id='testing123'>Grill</Paper>
+          <Paper className={classes.paper} id='amenities-card'>Grill</Paper>
         </Grid>
         <Grid item xs={4}>
-          <Paper className={classes.paper} id='testing123'>Dock/Water Access: No</Paper>
+          <Paper className={classes.paper} id='amenities-card'>Dock/Water Access: No</Paper>
         </Grid>
           {/* new row 7*/}
           <Grid item xs={4}>
-          <Paper className={classes.paper} id='testing123'>Bedroom 2: Queen</Paper>
+          <Paper className={classes.paper} id='amenities-card'>Bedroom 2: Queen</Paper>
         </Grid>
         <Grid item xs={4}>
-          <Paper className={classes.paper} id='testing123'>TVs: 4</Paper>
+          <Paper className={classes.paper} id='amenities-card'>TVs: 4</Paper>
         </Grid>
         <Grid item xs={4}>
-          <Paper className={classes.paper} id='testing123' style={{'box-shadow': '0px 0px 0px 0px'}}></Paper>
+          <Paper className={classes.paper} id='amenities-card' style={{'box-shadow': '0px 0px 0px 0px'}}></Paper>
         </Grid>
           {/* new row 7*/}
           <Grid item xs={4}>
-          <Paper className={classes.paper} id='testing123'>Bedroom 3: Queen</Paper>
+          <Paper className={classes.paper} id='amenities-card'>Bedroom 3: Queen</Paper>
         </Grid>
         <Grid item xs={4}>
-          <Paper className={classes.paper} id='testing123'>Cable</Paper>
+          <Paper className={classes.paper} id='amenities-card'>Cable</Paper>
         </Grid>
         <Grid item xs={4}>
-          <Paper className={classes.paper} id='testing123' style={{'box-shadow': '0px 0px 0px 0px'}}></Paper>
+          <Paper className={classes.paper} id='amenities-card' style={{'box-shadow': '0px 0px 0px 0px'}}></Paper>
         </Grid>
           {/* new row 7*/}
           <Grid item xs={4}>
-          <Paper className={classes.paper} id='testing123'>Bedroom 4: Double</Paper>
+          <Paper className={classes.paper} id='amenities-card'>Bedroom 4: Double</Paper>
         </Grid>
         <Grid item xs={4}>
-          <Paper className={classes.paper} id='testing123'>WIFI</Paper>
+          <Paper className={classes.paper} id='amenities-card'>WIFI</Paper>
         </Grid>
         <Grid item xs={4}>
-          <Paper className={classes.paper} id='testing123' style={{'box-shadow': '0px 0px 0px 0px'}}></Paper>
+          <Paper className={classes.paper} id='amenities-card' style={{'box-shadow': '0px 0px 0px 0px'}}></Paper>
         </Grid>
           {/* new row 7*/}
           <Grid item xs={4}>
-          <Paper className={classes.paper} id='testing123'>Linens: No</Paper>
+          <Paper className={classes.paper} id='amenities-card'>Linens: No</Paper>
         </Grid>
         <Grid item xs={4}>
-          <Paper className={classes.paper} id='testing123'>Roku Streaming</Paper>
+          <Paper className={classes.paper} id='amenities-card'>Roku Streaming</Paper>
         </Grid>
         <Grid item xs={4}>
-          <Paper className={classes.paper} id='testing123' style={{'box-shadow': '0px 0px 0px 0px'}}></Paper>
+          <Paper className={classes.paper} id='amenities-card' style={{'box-shadow': '0px 0px 0px 0px'}}></Paper>
         </Grid>
           {/* new row 7*/}
           <Grid item xs={4}>
-          <Paper className={classes.paper} id='testing123'>Toiletries: No</Paper>
+          <Paper className={classes.paper} id='amenities-card'>Toiletries: No</Paper>
         </Grid>
       </Grid>
     </div>

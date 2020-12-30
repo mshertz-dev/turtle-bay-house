@@ -22,17 +22,92 @@
 .App-header {
   /* background-color: rgb(251, 254, 255); */
   background: url("pic1.JPEG") no-repeat center center;
+  background-size: cover;
   font-family: Helvetica, Arial, sans-serif;
-  min-height: 100vh;
+  width: 100%;
+  height: auto;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  overflow-x: auto;
+  overflow-y: auto;
+  align-items: left;
+  justify-content: left;
   font-size: calc(10px + 2vmin);
   color: rgb(251, 254, 255);
-  margin-top: -50px;
+  margin-top: 0px;
   padding-top: 0px;
   /* color: coral; */
+}
+
+#header-card {
+  background-color: #15def8;
+  color: white;
+  border-color: powderblue;
+  width: 100%;
+  font-weight: 600;
+}
+
+#Header-main-text {
+  position: relative;
+  font-size: 2em;
+  text-align: left;
+  top: 0px;
+  left: 5px;
+  margin-top: 5px;
+  padding-top: 5px;
+  margin-left: 5px;
+  padding-left: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+#Header-sub-text {
+  position: relative;
+  text-align: left;
+  position: left;
+  font-size: 1.5em;
+  margin-top: 5px;
+  padding-top: 5px;
+  margin-left: 5px;
+  padding-left: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+#headerCard {
+  background-color: #15def8;
+  color: white;
+  border-color: powderblue;
+  width: 100%;
+  font-weight: 600;
+}
+
+#Header-main-text {
+  position: relative;
+  font-size: 2em;
+  text-align: left;
+  top: 0px;
+  left: 5px;
+  /* margin-top: 5px;
+  padding-top: 5px;
+  margin-left: 5px;
+  padding-left: 5px; */
+  display: flex;
+  flex-direction: column;
+}
+
+#Header-sub-text {
+  position: relative;
+  text-align: left;
+  position: left;
+  font-size: 1.5em;
+  /* margin-top: 5px;
+  padding-top: 5px;
+  margin-left: 5px;
+  padding-left: 5px; */
+  display: flex;
+  flex-direction: column;
 }
 
 .App-link {
@@ -57,11 +132,25 @@ body {
 
 
 
+#amenities-card {
+  background-color: white;
+  color:black;
+  border-color: powderblue;
+  width: 100%;
+  height: auto;
+  /* overflow-x: auto;
+  overflow-y: auto; */
+  /* overflow: visible; */
+}
+
 #testing123 {
   background-color: white;
   color:black;
   border-color: powderblue;
   width: 100%;
+  /* overflow-x: auto;
+  overflow-y: auto; */
+  /* overflow: visible; */
 }
 
 #things-to-do-box {
@@ -70,6 +159,8 @@ body {
   border-color: powderblue;
   margin-left: 5%;
   margin-right: 5%;
+  overflow-x: auto;
+  overflow: visible;
 }
 
 #things-to-do-details {
@@ -83,20 +174,29 @@ body {
 }
 
 #activity-pic {
-  display: flex;
+  display: none;
   flex-direction: row;
   order: 1;
   width: 200px;
-  height: auto;
+  height: 150px;
   margin-left: 1%;
+}
+
+@media screen and (min-width: 701px) {
+  #activity-pic {
+    display: block;
+  }
+  #amenities-card {
+    height: 80px;
+  }
 }
 
 #things-to-do-description {
   display: flex;
   flex-direction: row;
   order: 2;
-  margin-left: 5%;
-  margin-right: 5%;
+  /* margin-left: 5%;
+  margin-right: 5%; */
 }
 
 #things-to-do-info {
@@ -117,30 +217,7 @@ body {
   width: 100%;
 }
 
-#headerCard {
-  background-color: #15def8;
-  color: white;
-  border-color: powderblue;
-  width: 100%;
-  font-weight: 900;
-}
 
-#Header-main-text {
-  position: absolute;
-  font-size: 2em;
-  text-align: left;
-  top: -10px;
-  left: 5px;
-}
-
-#Header-sub-text {
-  position: absolute;
-  text-align: left;
-  position: left;
-  font-size: 1.5em;
-  top: 300px;
-  left: 5px;
-}
 
 @keyframes App-logo-spin {
   from {
