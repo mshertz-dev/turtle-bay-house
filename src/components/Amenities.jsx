@@ -25,13 +25,13 @@ export default function Amenities() {
       <Grid container spacing={3}>
       {/* new row 1*/}
       <Grid item xs={4} id='amenities-container'>
-          <Paper className={classes.paper} id='header-card'>Bedrooms and Bathrooms</Paper>
+          <Paper className={classes.paper} id='header-card'>Bedrooms / Bathrooms</Paper>
         </Grid>
         <Grid item xs={4} id='amenities-container'>
-          <Paper className={classes.paper} id='header-card'>Appliances/Kitchen</Paper>
+          <Paper className={classes.paper} id='header-card'>Appliances / Kitchen</Paper>
         </Grid>
         <Grid item xs={4} id='amenities-container'>
-          <Paper className={classes.paper} id='header-card'>Safety/Misc</Paper>
+          <Paper className={classes.paper} id='header-card'>Safety / Misc</Paper>
         </Grid>
         {/* new row 2*/}
         <Grid item xs={4} id='amenities-container'>
@@ -117,7 +117,7 @@ export default function Amenities() {
           <Grid item xs={4} id='amenities-container'>
           <Paper className={classes.paper} id='amenities-card'>Linens: No</Paper>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={4} id='amenities-container'>
           <Paper className={classes.paper} id='amenities-card'>Roku Streaming</Paper>
         </Grid>
         <Grid item xs={4} id='amenities-container'>
