@@ -10,6 +10,7 @@ import Box from "@material-ui/core/Box";
 import '../App.css';
 import Amenities from './Amenities.jsx';
 import DemoCarousel from './Carousel.jsx';
+import Booking from './Booking.jsx';
 import ThingsToDo from './ThingsToDo.jsx';
 
 function TabPanel(props) {
@@ -96,13 +97,21 @@ export default function ScrollableTabsButtonAuto() {
         </div>
       </TabPanel>
       <TabPanel value={value} index={3}>
-        <div id='testing123'>
-          <p id='testing123'>Contact Us form goes here</p>
-        </div>
+        <Booking></Booking>
       </TabPanel>
       <TabPanel value={value} index={4}>
         <div id='testing123'>
           <p id='testing123'>Keep an eye out for a Welcome Letter along with further instructions!</p>
+        </div>
+      </TabPanel>
+      <TabPanel value={value} index={5}>
+        <div id='testing123'>
+          <p id='testing123'>Reviews coming soon!</p>
+        </div>
+      </TabPanel>
+      <TabPanel value={value} index={6}>
+        <div id='testing123'>
+          <p id='testing123'>About the Owners coming soon!</p>
         </div>
       </TabPanel>
     </div>

@@ -22,7 +22,8 @@ class ThingsToDo extends React.Component {
       restaurants: [
         {id: 1, name: `O'Donnell's Pour House`, shortName: `O'Donnell's`, imgURL: `http://odonnellspourhouse.com/assets/images/galleries/full/hsCom.jpg`, description: `Upbeat Irish pub offering American fare, including steaks & seafood, plus frequent live music.`, phone: `609.263.5600`, address: `3907 Landis Ave`, website: `http://odonnellspourhouse.com/`, websiteName: `odonnellspourhouse.com/`},
         {id: 2, name: `Hank's Sauce`, shortName: `Hank's`, imgURL: `https://cdn.shopify.com/s/files/1/0452/5593/files/restaurant2_1200x.jpg?v=1572378651`, description: `Casual haunt for creative comfort eats, such as cheesesteak tacos, burgers & lobster mac ’n’ cheese.`, phone: `609.486.5132`, address: `806 Landis Ave`, website: `https://www.hanksauce.com/`, websiteName: `hanksauce.com/`},
-        {id: 3, name: `Mike's Seafood`, shortName: `Mike's`, imgURL: `https://digitalmarketing.blob.core.windows.net/8577/images/items/image566895.jpg`, description: `Located in Sea Isle City's Historic Fish Alley, Mike's Seafood and Dock Restaurant is committed to satisfying our customers with a wide selection of fresh, locally caught seafood for lunch and dinner.`, phone: `609.263.3458`, address: `4222 Park Road`, website: `https://www.mikesseafood.com/home`, websiteName: `mikesseafood.com/`}]
+        {id: 3, name: `Mike's Seafood`, shortName: `Mike's`, imgURL: `https://digitalmarketing.blob.core.windows.net/8577/images/items/image566895.jpg`, description: `Located in Sea Isle City's Historic Fish Alley, Mike's Seafood and Dock Restaurant is committed to satisfying our customers with a wide selection of fresh, locally caught seafood for lunch and dinner.`, phone: `609.263.3458`, address: `4222 Park Road`, website: `https://www.mikesseafood.com/home`, websiteName: `mikesseafood.com/`},
+        {id: 4, name: `Basilico's Ristorante`, shortName: `Basilico's`, imgURL: `https://img1.wsimg.com/isteam/ip/3d5254c9-e40b-4ff9-a9e3-94e5596accfe/9650638f-2ca0-4250-90b9-36ae64e667a2.JPG/:/rs=w:1140,h:900,cg:true,m/cr=w:1140,h:900,a:cc`, description: `Homemade pastas & other traditional Italian dishes offered in an informal environment.`, phone: `609.263.1010`, address: `27 43rd Street`, website: `https://basilicosristorante.com/entree-take-out`, websiteName: `basiliocsristorante.com/`}]
     };
   }
 
@@ -61,22 +62,6 @@ class ThingsToDo extends React.Component {
             )
           })
         }
-        {/* <Grid item xs={12}>
-            <Paper id='things-to-do-box'>
-              <h4 id='activity-header'>O'Donnell's Pour House</h4>
-              <div id='things-to-do-details'>
-                <div id='activity-pic'>
-                  <img src="http://odonnellspourhouse.com/assets/images/galleries/full/hsCom.jpg" alt="odonnells" id='activity-pic'></img>
-                </div>
-                <div id='things-to-do-description'>
-                  <p>Upbeat Irish pub offering American fare, including steaks & seafood, plus frequent live music.</p>
-                </div>
-                <div id='things-to-do-info'>
-                  <p>Phone: 609.263.5600 <br></br> Address: 3907 Landis Ave <br></br>Website: <a href="http://odonnellspourhouse.com/">odonnellspourhouse.com</a></p>
-                </div>
-              </div>
-            </Paper>
-          </Grid> */}
         </Grid>
       </div>
     );
