@@ -170,7 +170,8 @@ body {
 }
 
 #activity-pic {
-  display: none;
+  display: flex;
+  flex-direction: column;
   order: 1;
   width: 250px;
   height: 175px;
@@ -221,6 +222,7 @@ body {
   #things-to-do-description {
     flex-direction: row;
     order: 2;
+    max-width: 50%;
   }
 
   #things-to-do-info {

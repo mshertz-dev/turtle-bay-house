@@ -23,17 +23,6 @@ function App() {
 
 
         <SimpleTabs></SimpleTabs>
-          {/* <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a> */}
-        <p>
-          this is the body
-        </p>
       </body>
     </div>
   );
