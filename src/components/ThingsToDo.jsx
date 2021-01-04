@@ -19,21 +19,15 @@ function ThingsToDo() {
   const classes = useStyles();
 
   return (
-    // <div>
-    //   <Box p={1} className="things-to-do-box">
-    //     <p>this is a box</p>
-    //   </Box>
-    // </div>
     <div className={classes.root}>
       <h3>Restaurants</h3>
       <Grid container spacing={1}>
-      {/* new row 1*/}
       <Grid item xs={12}>
           <Paper className={classes.paper} id='things-to-do-box'>
-            <h4 id='activity-header'>O'Donnel's Pour House</h4>
+            <h4 id='activity-header'>O'Donnell's Pour House</h4>
             <div id='things-to-do-details'>
               <div id='activity-pic'>
-                <img src="http://odonnellspourhouse.com/assets/images/galleries/full/hsCom.jpg" id='activity-pic'></img>
+                <img src="http://odonnellspourhouse.com/assets/images/galleries/full/hsCom.jpg" alt="odonnells" id='activity-pic'></img>
               </div>
               <div id='things-to-do-description'>
                 <p>Upbeat Irish pub offering American fare, including steaks & seafood, plus frequent live music.</p>
@@ -42,8 +36,6 @@ function ThingsToDo() {
                 <p>Phone: 609.263.5600 <br></br> Address: 3907 Landis Ave <br></br>Website: <a href="http://odonnellspourhouse.com/">odonnellspourhouse.com</a></p>
               </div>
             </div>
-
-
           </Paper>
         </Grid>
       </Grid>
