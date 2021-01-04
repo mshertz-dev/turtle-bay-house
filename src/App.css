@@ -32,8 +32,6 @@
   padding-top: 0px;
 }
 
-
-
 #Header-main-text {
   position: relative;
   font-size: 2em;
@@ -42,6 +40,8 @@
   padding-top: 5px;
   margin-left: 5px;
   padding-left: 5px;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
   display: flex;
   flex-direction: column;
 }
@@ -51,6 +51,7 @@
   text-align: left;
   position: left;
   font-size: 1.5em;
+  font-weight: lighter;
   margin-top: 5px;
   padding-top: 5px;
   margin-left: 5px;
@@ -90,6 +91,13 @@ body {
   font-weight: 600;
 }
 
+#about-details {
+  font-weight: lighter;
+}
+
+#about-covid {
+  font-weight: bolder;
+}
 #amenities-card {
   background-color: white;
   color:black;

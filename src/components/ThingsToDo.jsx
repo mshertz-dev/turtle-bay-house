@@ -19,7 +19,10 @@ class ThingsToDo extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      restaurants: [{id: 1, name: `O'Donnell's Pour House`, shortName: `O'Donnell's`, imgURL: `http://odonnellspourhouse.com/assets/images/galleries/full/hsCom.jpg`, description: `Upbeat Irish pub offering American fare, including steaks & seafood, plus frequent live music.`, phone: `609.263.5600`, address: `3907 Landis Ave`, website: `http://odonnellspourhouse.com/`, websiteName: `odonnellspourhouse.com/`}, {id: 2, name: `Hank's Sauce`, shortName: `Hank's`, imgURL: `https://cdn.shopify.com/s/files/1/0452/5593/files/restaurant2_1200x.jpg?v=1572378651`, description: `Casual haunt for creative comfort eats, such as cheesesteak tacos, burgers & lobster mac ’n’ cheese.`, phone: `609.486.5132`, address: `806 Landis Ave`, website: `https://www.hanksauce.com/`, websiteName: `hanksauce.com/`}]
+      restaurants: [
+        {id: 1, name: `O'Donnell's Pour House`, shortName: `O'Donnell's`, imgURL: `http://odonnellspourhouse.com/assets/images/galleries/full/hsCom.jpg`, description: `Upbeat Irish pub offering American fare, including steaks & seafood, plus frequent live music.`, phone: `609.263.5600`, address: `3907 Landis Ave`, website: `http://odonnellspourhouse.com/`, websiteName: `odonnellspourhouse.com/`},
+        {id: 2, name: `Hank's Sauce`, shortName: `Hank's`, imgURL: `https://cdn.shopify.com/s/files/1/0452/5593/files/restaurant2_1200x.jpg?v=1572378651`, description: `Casual haunt for creative comfort eats, such as cheesesteak tacos, burgers & lobster mac ’n’ cheese.`, phone: `609.486.5132`, address: `806 Landis Ave`, website: `https://www.hanksauce.com/`, websiteName: `hanksauce.com/`},
+        {id: 3, name: `Mike's Seafood`, shortName: `Mike's`, imgURL: `https://cdn.shopify.com/s/files/1/0452/5593/files/restaurant2_1200x.jpg?v=1572378651`, description: `Casual haunt for creative comfort eats, such as cheesesteak tacos, burgers & lobster mac ’n’ cheese.`, phone: `609.486.5132`, address: `806 Landis Ave`, website: `https://www.hanksauce.com/`, websiteName: `hanksauce.com/`}]
     };
   }
 

@@ -19,9 +19,10 @@ export default function Amenities() {
 
   return (
     <div className={classes.root}>
-      <h3>Hello and welcome to Turtle Bay House, located on the bay end of 81st Street.  You're just 3 blocks from the beach while being able to enjoy an incredibly breathtaking unobstructed view of the bay.  The sunsets are to die for!  The house is walking distance to many amenities including marinas, dining, nightlife, and convenience stores.</h3>
-      <h3>While staying at Turtle Bay House, we simply ask that you treat the home as your own and that you enjoy yourselves and relax as much as possible.  Please see below for the various amenities included as well as some exclusions.  Please feel free to contact us if you'd like any clarification.</h3>
-      <h3>*COVID-19 UPDATE*: Due to the ongoing pandemic, we are unfortunately not permitted to provide linens including comforters.  When we are given further direction by local and state governments, we will update our policy but until then, please bring all linens and if traveling from afar, we suggest a linen rental company.  There are a few who service Sea Isle City but if you'd like a specific recommendation, please let us know.</h3>
+      {/* only make covid update bold */}
+      <h3 id="about-details">Hello and welcome to Turtle Bay House, located on the bay end of 81st Street.  You're just 3 blocks from the beach while being able to enjoy an incredibly breathtaking unobstructed view of the bay.  The sunsets are to die for!  The house is walking distance to many amenities including marinas, dining, nightlife, and convenience stores.</h3>
+      <h3 id="about-details">While staying at Turtle Bay House, we simply ask that you treat the home as your own and that you enjoy yourselves and relax as much as possible.  Please see below for the various amenities included as well as some exclusions.  Please feel free to contact us if you'd like any clarification.</h3>
+      <h3 id="about-covid">*COVID-19 UPDATE*: Due to the ongoing pandemic, we are unfortunately not permitted to provide linens including comforters.  When we are given further direction by local and state governments, we will update our policy but until then, please bring all linens and if traveling from afar, we suggest a linen rental company.  There are a few who service Sea Isle City but if you'd like a specific recommendation, please let us know.</h3>
       <Grid container spacing={3}>
       {/* new row 1*/}
       <Grid item xs={4} id='amenities-container'>
