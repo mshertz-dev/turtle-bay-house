@@ -17,11 +17,8 @@ function App() {
         <h2 id="Header-sub-text">
           Your serene paradise in Sea Isle City.
         </h2>
-
       </header>
       <body>
-
-
         <SimpleTabs></SimpleTabs>
       </body>
     </div>
