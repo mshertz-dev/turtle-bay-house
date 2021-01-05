@@ -12,15 +12,79 @@ class DemoCarousel extends Component {
         return (
             <Carousel>
                 <div className="image-container">
-                    <img src={pic2} id="carousel-img"/>
-                    <p className="legend">Legend 1</p>
+                    <img src="https://turtle-bay-house.s3.us-east-2.amazonaws.com/turtlebay1.jpeg" id="carousel-img"/>
+                    <p className="legend">Main Deck Daytime</p>
                 </div>
                 <div className="image-container">
-                    <img src={pic3} id="carousel-img"/>
-                    <p className="legend">Legend 2</p>
+                    <img src="https://turtle-bay-house.s3.us-east-2.amazonaws.com/turtlebay2.jpeg" id="carousel-img"/>
+                    <p className="legend">Main Deck Sunset</p>
                 </div>
                 <div className="image-container">
-                    <img src={pic4} id="carousel-img"/>
+                    <img src="https://turtle-bay-house.s3.us-east-2.amazonaws.com/turtlebay3.jpeg" id="carousel-img"/>
+                    <p className="legend">Main Deck Sunset</p>
+                </div>
+                <div className="image-container">
+                    <img src="https://turtle-bay-house.s3.us-east-2.amazonaws.com/turtlebay6.jpeg" id="carousel-img"/>
+                    <p className="legend">Sitting Area</p>
+                </div>
+                <div className="image-container">
+                    <img src="https://turtle-bay-house.s3.us-east-2.amazonaws.com/turtlebay16.jpeg" id="carousel-img"/>
+                    <p className="legend">Living Room</p>
+                </div>
+                <div className="image-container">
+                    <img src="https://turtle-bay-house.s3.us-east-2.amazonaws.com/turtlebay7.jpeg" id="carousel-img"/>
+                    <p className="legend">Main Deck</p>
+                </div>
+                <div className="image-container">
+                    <img src="https://turtle-bay-house.s3.us-east-2.amazonaws.com/turtlebay9.jpeg" id="carousel-img"/>
+                    <p className="legend">Master Bedroom</p>
+                </div>
+                <div className="image-container">
+                    <img src="https://turtle-bay-house.s3.us-east-2.amazonaws.com/turtlebay10.jpeg" id="carousel-img-2"/>
+                    <p className="legend">Master Bathroom</p>
+                </div>
+                <div className="image-container">
+                    <img src="https://turtle-bay-house.s3.us-east-2.amazonaws.com/turtlebay11.jpeg" id="carousel-img"/>
+                    <p className="legend">Upper Deck</p>
+                </div>
+                <div className="image-container">
+                    <img src="https://turtle-bay-house.s3.us-east-2.amazonaws.com/turtlebay12.jpeg" id="carousel-img"/>
+                    <p className="legend">Bedroom 2</p>
+                </div>
+                <div className="image-container">
+                    <img src="https://turtle-bay-house.s3.us-east-2.amazonaws.com/turtlebay13.jpeg" id="carousel-img"/>
+                    <p className="legend">Bedroom 3</p>
+                </div>
+                <div className="image-container">
+                    <img src="https://turtle-bay-house.s3.us-east-2.amazonaws.com/turtlebay14.jpeg" id="carousel-img-2"/>
+                    <p className="legend">2nd Story Bathroom</p>
+                </div>
+                <div className="image-container">
+                    <img src="https://turtle-bay-house.s3.us-east-2.amazonaws.com/turtlebay15.jpeg" id="carousel-img"/>
+                    <p className="legend">Bedroom 4</p>
+                </div>
+                <div className="image-container">
+                    <img src="https://turtle-bay-house.s3.us-east-2.amazonaws.com/turtlebay17.jpeg" id="carousel-img"/>
+                    <p className="legend">Kitchen</p>
+                </div>
+                <div className="image-container">
+                    <img src="https://turtle-bay-house.s3.us-east-2.amazonaws.com/turtlebay18.jpeg" id="carousel-img"/>
+                    <p className="legend">Dining Area</p>
+                </div>
+                <div className="image-container">
+                    <img src="https://turtle-bay-house.s3.us-east-2.amazonaws.com/turtlebay20.jpeg" id="carousel-img"/>
+                    <p className="legend">Driveway</p>
+                </div>
+                <div className="image-container">
+                    <img src="https://turtle-bay-house.s3.us-east-2.amazonaws.com/turtlebay8.jpeg" id="carousel-img-2"/>
+                    <p className="legend">Ground Level Bathroom</p>
+                </div>
+                <div className="image-container">
+                    <img src="https://turtle-bay-house.s3.us-east-2.amazonaws.com/turtlebay19.jpeg" id="carousel-img-2"/>
+                    <p className="legend">Ground Level Bathroom</p>
+                </div>
+                <div className="image-container">
+                    <img src="https://turtle-bay-house.s3.us-east-2.amazonaws.com/turtlebay21.jpeg" id="carousel-img"/>
                     <p className="legend">Legend 2</p>
                 </div>
             </Carousel>
