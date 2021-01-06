@@ -1,6 +1,4 @@
 import React from 'react';
-// import logo from '../logo.svg';
-import pic1 from '../pic1.JPEG';
 import '../App.css';
 import SimpleTabs from './Tabs.jsx';
 
