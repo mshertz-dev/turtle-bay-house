@@ -25,6 +25,7 @@ export default function BookingForm() {
   };
   const handleFinalSubmit = e => {
     console.log(eachEntry);
+    alert("Thanks for reaching out!  We'll be in contact with you shortly");
   };
 
   return (
