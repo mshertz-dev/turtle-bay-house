@@ -265,6 +265,8 @@ body {
 
   #things-to-do-details {
     flex-direction: row;
+    font-size: large;
+    font-weight: lighter;
   }
 
   #things-to-do-description {
